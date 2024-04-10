@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Build artifacts
+android/app/build/
+ios/*.xcworkspace/
+ios/*.xcodeproj/
+!ios/*.podspec
+
+# Dependency lock files
+yarn.lock
+# or
+package-lock.json
+
+# IDE specific files (choose relevant ones)
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+
+# Test reports (adjust if using different runner)
+jest/coverage/
+# or
+coverage/
+
+# Watchman (performance)
+.watchmanconfig
+
+# metro bundler cache
+.metroconfig.json
+
+# Optional: exclude source maps
+*.js.map
+
+# Large media or assets (adjust patterns as needed)
+assets/images/large_*.jpg
+assets/videos/*.mp4
+
+# Add these lines to your existing .gitignore file
+
+# Test folders
+
+**/*_test*  # This pattern will also exclude subdirectories within _test_
+__test__/
+# Bundle folders
+.bundle/
